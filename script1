@@ -1,0 +1,7 @@
+#!/bin/bash
+ec2-user
+sudo -i
+yum install httpd -y
+cd /var/www/html
+echo "king is coming i linux" >index. html
+service httpd restart
